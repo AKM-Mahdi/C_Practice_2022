@@ -11,7 +11,7 @@ int print_hash(int n)
 }
 int main()
 {
-    for(int i=1; i<=5; i++)
+    for(int i=5; i>=1; i--)
         print_hash(i);
     return 0;
 }
